@@ -1,0 +1,14 @@
+body {
+    font-family:Roboto;
+    background-color:#57F555;
+    color:#EEF0F7;
+    border: 3px black;
+}
+
+h1,h2,h3,h4,h5,h6 {
+    font-family:"Dancing+Script";
+    font-size:40pt;
+    ;
+}
+
+
