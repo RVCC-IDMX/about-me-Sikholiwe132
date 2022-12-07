@@ -1,14 +1,125 @@
 body {
-    font-family:Roboto;
-    background-color:#57F555;
-    color:#EEF0F7;
-    border: 3px black;
+    font-family: "Lato";
+    background-color:#EBB25B;
+    color: rgb(21, 128, 0);
+
 }
 
 h1,h2,h3,h4,h5,h6 {
-    font-family:"Dancing+Script";
-    font-size:40pt;
-    ;
+    font-family: "Fasthand";
+    font-size: 40pt;
+    text-align: center;
+
+}
+
+h3 {
+    margin: 0.1em;
+
+h1 {
+    font-size: 40pt;
+}
+
+header {
+    text-align: center;
+}
+
+#hero, footer {
+    color: #EBB25B;
+    border: 5px solid black;
+    background-color: #F246E5;
+    text-align: center;
+    padding: 10px;
+}
+
+/*Hero Section*/
+
+#hero img {
+    width: 300px;
+}
+
+/*Bio Section*/
+
+#bio, #hobbies {
+    text-align: center;
+}
+
+/*Hobbies*/
+
+section#hobbies {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+
+#hobbies ul li:nth-child(odd) {
+    color: #F246E5;
+}
+
+/*Gallery*/
+
+#gallery {
+    border: 5px solid blueviolet;
+    margin-bottom: 2rem;
+}
+
+#gallery img {
+    max-width: 300px;
+    max-height: 400px;
+}
+
+gallery figure {
+    text-align: center;
+}
+
+/*Literature*/
+#lit {
+    border: 5px solid blueviolet;
+    margin-bottom: 2rem;
+}
+
+#lit div {
+    padding:2rem;
+    max-width: 40rem;
+    margin: 0 auto;
+}
+
+#lit div p {
+    padding: 0.3rem 0;
+}
+
+/*Dropcaps*/
+
+#lit div p:nth-child(3n+1):first-letter {
+
+    color:blue;
+    background-image: radial-gradient(#FFF, #A3721C);
+    float:left;
+    font-size: 3em;
+    padding: .25em;
+    margin-right: .25em;
+    line-height: .65;
+    border: 4px outset brown;
+    font-family: "Lato";
+    text-shadow: 2px 2px 3px rgba(0,0,0,.5);
+    box-shadow:5px 5px 5px rgba(0,0,0,.5);
+    border-top-left-radius: .2em;
+    border-bottom-right-radius: .2em;
 }
 
 
+
+@media screen and (min-width: 60em) {
+    figure {
+        display: grid;
+        grid-template-columns: 2fr 1fr;
+    }
+    
+    figcaption {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 2rem;
+        margin-left: 1rem;
+    }
+    
+    }
