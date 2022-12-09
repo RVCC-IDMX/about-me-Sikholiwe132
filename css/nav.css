@@ -98,4 +98,11 @@ such that no text wraps
         display: flex;
         justify-content: space-between;
     }
+
+    #contact label {
+        align-items: right; 
+
+    }
+    
 }
+
