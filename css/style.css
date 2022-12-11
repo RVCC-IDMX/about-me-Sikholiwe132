@@ -39,8 +39,15 @@ header {
 
 /*Bio Section*/
 
+
 #bio, #hobbies {
-    text-align: center;
+   text-align: center;
+}
+
+#bio img{
+    max-width: 200px;
+    max-height: 400px;
+
 }
 
 /*Hobbies*/
@@ -223,5 +230,7 @@ legend {
     width:50%;
     justify-self: center;
 }
+
+ 
 
     }

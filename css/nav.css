@@ -13,6 +13,10 @@ body {
     box-sizing: border-box;
     padding: 0;
     margin: 0;
+    font-family:"Andika New Basic", sans-serif;
+    font-weight: 700;
+    color: bisque;
+    height: 100vh;
 }
 
 /* add some padding back to rest of page */
@@ -103,6 +107,50 @@ such that no text wraps
         align-items: right; 
 
     }
-    
-}
+    .nav{
+     border-bottom: 1px solid black;
+    }
+
+    .toggle { 
+        
+    position: absolute;
+    cursor: pointer;
+    margin: 0rem 1rem;
+    right: 0;}
+
+    svg{
+        width: 1.5rem;
+        fill:aqua;
+    }
+
+    .close{
+        display: none;
+    }
+    .menu{
+        margin-top: 0.2rem;
+        display: flex;
+        flex-direction: column;
+        gap:2rem;
+        align-items: center;
+        margin:1rem;
+    }
+
+    #li{
+        list-style: none;
+        display: none;
+    }
+
+    a{
+        text-decoration: none;
+        color: inherit;
+        font-size: 1.2rem;
+    }
+
+    .checkbox{
+        display:none;
+    }
+  
+
+    }
+
 
