@@ -8,7 +8,9 @@ Netlify Status Badge:
 
 The purpose of this project was to utilize the skills we have learned throughout the semester by building and completing a website that has been underway since we started classes. This final project is done with the purpose of having a portfolio of work that can potentially be presented to future employers. From the beginning we created a Github profile using markdown, created our first local website with the words "Hello World", we then added HTML code, images that created a gallery as well as links and published our work on Netlify by creating a profile commiting, pushing and pulling our changes from VS Code to Github which then publishes it on Netlify. We incorporated some CSS styling and increased our ability to be creative through pseudoclasses & pseudoelements, media states, adding media such as video or audio and finally we learned about tables and forms and navigation through addng a contact me form and a navigation bar.
 
-Color Scheme inlcudes Background: #F58C36
+Color Scheme inlcudes 
+<ul> 
+<li>Background: #F58C36</li>
                       Text: #FAF9F6
                       Border: #E05853
 
