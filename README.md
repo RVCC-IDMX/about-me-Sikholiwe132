@@ -15,7 +15,8 @@ Color Scheme inlcudes Background: #F58C36
 <img src="img/Color Scheme - Copy.png" alt="Color Swatch">
 
 
-Works Cited
+Works Cited: 
+
 DOCS, M. W. (2022, September 27). Retrieved from MDN WEB DOCS: https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Fonts/Variable_Fonts_Guide
 Murphy, Z. (2021, June 7). Retrieved from Type01: https://type-01.com/what-is-variable-font-technology-how-can-we-stretch-its-abilities-in-years-to-come/
 Stocks, EJ. (2022, January 19). Retrieved from Google Fonts: https://fonts.google.com/knowledge/introducing_type/introducing_variable_fonts
