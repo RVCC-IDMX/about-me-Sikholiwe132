@@ -113,6 +113,12 @@ gallery figure {
     border-bottom-right-radius: .2em;
 }
 
+/* width range is from 55% to 100% */
+#container1  {
+    font-stretch: 100%;
+  }
+
+
 
 /* tablet size */
 @media screen and (min-width: 60em) {
