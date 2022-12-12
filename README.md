@@ -11,8 +11,9 @@ The purpose of this project was to utilize the skills we have learned throughout
 Color Scheme inlcudes 
 <ul> 
 <li>Background: #F58C36</li>
-                      Text: #FAF9F6
-                      Border: #E05853
+<li>Text: #FAF9F6</li>
+<li>Border: #E05853</li>
+</ul>
 
 <img src="img/Color Scheme.png" alt="Color Swatch">
 

@@ -107,16 +107,11 @@ such that no text wraps
         align-items: right; 
 
     }
-    .nav{
-     border-bottom: 1px solid black;
+    .nav-toggle:checked ~ nav{
+     display: block ;
     }
 
-    .toggle { 
-        
-    position: absolute;
-    cursor: pointer;
-    margin: 0rem 1rem;
-    right: 0;}
+    
 
     svg{
         width: 1.5rem;
